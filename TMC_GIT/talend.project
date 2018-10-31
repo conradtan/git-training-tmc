@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_xOLWAdziEeiQyagEXD7AUQ" label="TMC_GIT" language="java" technicalLabel="TMC_GIT" author="_xOLWAtziEeiQyagEXD7AUQ" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/conradtan/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false">
+  <TalendProperties:Project xmi:id="_xOLWAdziEeiQyagEXD7AUQ" label="TMC_GIT" language="java" technicalLabel="TMC_GIT" author="_xOLWAtziEeiQyagEXD7AUQ" productVersion="Talend Cloud Data Management Platform-7.0.1.20180411_1414" url="{&quot;location&quot;:&quot;https://github.com/conradtan/git-training-tmc&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_yTUZINziEeiQyagEXD7AUQ" label="development" code="DEV"/>
     <technicalStatus xmi:id="_yTUZIdziEeiQyagEXD7AUQ" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_yTUZItziEeiQyagEXD7AUQ" label="production" code="PROD"/>
@@ -85,6 +85,24 @@
         <elementParameter xmi:id="_c-giX9zjEeiht-ne4WCxIQ" field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" value="" contextMode="false"/>
       </parameters>
     </implicitContextSettings>
+    <ItemsRelations xmi:id="_Twm7YNz7Eeiht-ne4WCxIQ">
+      <baseItem xmi:id="_Twm7Ydz7Eeiht-ne4WCxIQ" id="_eLZgoE-gEei4E_fCz_1muw" version="0.1" type="job"/>
+      <relatedItems xmi:id="_Twm7Ytz7Eeiht-ne4WCxIQ" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7Y9z7Eeiht-ne4WCxIQ" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7ZNz7Eeiht-ne4WCxIQ" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7Zdz7Eeiht-ne4WCxIQ" id="DataMasking" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7Ztz7Eeiht-ne4WCxIQ" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7Z9z7Eeiht-ne4WCxIQ" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7aNz7Eeiht-ne4WCxIQ" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7adz7Eeiht-ne4WCxIQ" id="DqStringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7atz7Eeiht-ne4WCxIQ" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7a9z7Eeiht-ne4WCxIQ" id="DataQuality" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7bNz7Eeiht-ne4WCxIQ" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7bdz7Eeiht-ne4WCxIQ" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7btz7Eeiht-ne4WCxIQ" id="DQTechnical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7b9z7Eeiht-ne4WCxIQ" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_Twm7cNz7Eeiht-ne4WCxIQ" id="DataQualityDependencies" version="Latest" type="routine"/>
+    </ItemsRelations>
     <migrationTask xmi:id="_yRsBcNziEeiQyagEXD7AUQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_yRsBcdziEeiQyagEXD7AUQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_yRsBctziEeiQyagEXD7AUQ" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
